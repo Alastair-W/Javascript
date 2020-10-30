@@ -1,0 +1,54 @@
+div{
+    padding: 10px;
+    border-radius: 15px;
+}
+
+a{
+    color: turquoise;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+.container{
+    background-color: #1c335d;
+    border-radius: 0;
+    width: 970px;
+}
+
+.header{
+    width: 950px;
+    display: block;
+    margin-bottom: 20px;
+    background-color: darkred;
+    color: silver;
+    padding-left: 20px;
+}
+
+.navbar{
+    width: 180px;
+    display: inline-block;
+    padding-top: 20px;
+    margin-right: 20px;
+    background-color: teal;
+    vertical-align: top;
+    color: silver;
+}
+
+.main{
+    width: 726px;
+    display: inline-block;
+    background-color: #0f1823;
+    color: silver;
+}
+
+.footer{
+    width: 950px;
+    background-color: grey;
+    margin-top: 20px;
+}
+
+.example{
+    color: violet;
+}
