@@ -201,20 +201,20 @@ console.log(negative(testNegArr));
 //  is equal to "food".  If no array values are "food", then print "I'm hungry" once.
 
 function hungry(hungryArr){
-    var counterHun = 0;
+    var counterHun = false;
     for(var h = 0; h < hungryArr.length; h++){
         if(hungryArr[h] === "food"){
             console.log("yummy");
-            counterHun += 1;
+            counterHun = true;
         }
     }
-    if(counterHun === 0){
+    if(counterHun == false){
         console.log("I'm hungry");
     }
 }
 
 testHunArr = ["drink", "fool", "toiletries", "toys", "bags", "fool"]
-console.log(hungry(testHunArr));
+hungry(testHunArr);
 
 
 //  13. Swap Toward the Center - Given an array, swap the first and last values, third and third-to-last values, etc.  
